@@ -19,7 +19,7 @@
 //! single transaction.
 //!
 
-use bitcoin_hashes::Hash;
+use hashes::Hash;
 use prelude::*;
 
 use core::default::Default;
