@@ -90,4 +90,3 @@ secp-recovery = ["secp256k1/recovery"]
 std = ["secp256k1/std", "bitcoin_hashes/std", "bech32/std"]
 unstable = []
 use-serde = ["serde", "bitcoin_hashes/serde", "secp256k1/serde"]
-serde = ["use-serde"]  # Alias for compatibility with Junkcoin
